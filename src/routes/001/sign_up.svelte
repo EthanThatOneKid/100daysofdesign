@@ -27,12 +27,12 @@
         </label>
         <input
           class="h-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 relative block w-full appearance-none rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:z-10 focus:border-primary focus:outline-none focus:ring-primary sm:text-sm"
+          type="text"
           id="name"
           autocomplete="name"
           required=""
-          type="text"
-          name="name"
           placeholder="Enter your name"
+          name="name"
         />
       </div>
       <div>
@@ -44,11 +44,11 @@
         </label>
         <input
           class="h-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 relative block w-full appearance-none rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:z-10 focus:border-primary focus:outline-none focus:ring-primary sm:text-sm"
+          type="email"
           id="email"
           autocomplete="email"
           required=""
           placeholder="Enter your email"
-          type="email"
           name="email"
         />
       </div>
@@ -63,18 +63,29 @@
           id="terms"
         ></button>
         <input
-          aria-hidden="true"
-          tabindex="-1"
           type="checkbox"
+          aria-hidden="true"
+          style="transform:translateX(-100%);position:absolute;pointer-events:none;opacity:0;margin:0"
+          tabindex="-1"
           value="on"
-          style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 16px; height: 16px;"
         />
         <label
           class="font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 ml-2 block text-sm text-muted-foreground"
           for="terms"
         >
-          I agree to the
+          I agree to the{" "}
+          <a class="font-medium text-primary hover:underline" href="#">
+            terms and conditions
+          </a>
         </label>
+      </div>
+      <div>
+        <button
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+          type="submit"
+        >
+          Sign Up
+        </button>
       </div>
     </form>
   </div>
