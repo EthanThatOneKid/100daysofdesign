@@ -30,7 +30,7 @@
           type="text"
           id="name"
           autocomplete="name"
-          required=""
+          required={true}
           placeholder="Enter your name"
           name="name"
         />
@@ -47,7 +47,7 @@
           type="email"
           id="email"
           autocomplete="email"
-          required=""
+          required={true}
           placeholder="Enter your email"
           name="email"
         />
@@ -74,7 +74,10 @@
           for="terms"
         >
           I agree to the{" "}
-          <a class="font-medium text-primary hover:underline" href="#">
+          <a
+            class="font-medium text-primary hover:underline"
+            href="https://go.fart.tools/rr"
+          >
             terms and conditions
           </a>
         </label>

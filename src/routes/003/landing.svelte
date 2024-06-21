@@ -132,7 +132,7 @@
             src="/placeholder.svg"
             width="550"
             height="310"
-            alt="Image"
+            alt="Powerful Tools"
             class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
           />
           <div class="flex flex-col justify-center space-y-4">
