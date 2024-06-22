@@ -1,8 +1,5 @@
 <script lang="ts">
-  import type { PageData } from "./$types";
   import Calc from "./calc.svelte";
-
-  export let data: PageData;
 </script>
 
 <svelte:head>
@@ -13,4 +10,4 @@
   />
 </svelte:head>
 
-<Calc data={data.followRatio} />
+<Calc />
