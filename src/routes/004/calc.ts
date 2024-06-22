@@ -18,5 +18,9 @@ export function nextState(state: State): State {
 }
 
 export function calc(op: Operation, a: number, b: number): number {
+  if (Number.isNaN(b)) {
+    return a;
+  }
+
   return operations[op](a, b);
 }
