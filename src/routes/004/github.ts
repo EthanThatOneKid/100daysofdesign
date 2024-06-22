@@ -16,6 +16,7 @@ export interface FollowRatio extends FollowerFollowingCount {
   difference: number;
   notFollowingBack?: string[];
   notFollowedBack?: string[];
+  followingEachOther?: string[];
 }
 
 export interface FollowerFollowingCount {
