@@ -1,3 +1,28 @@
+<script lang="ts">
+  import { onMount } from "svelte";
+
+  let minutes = 5;
+  let seconds = 0;
+
+  onMount(() => {
+    const interval = setInterval(() => {
+      if (seconds === 0) {
+        if (minutes === 0) {
+          clearInterval(interval);
+          return;
+        }
+
+        minutes--;
+        seconds = 59;
+      } else {
+        seconds--;
+      }
+    }, 1e3);
+
+    return () => clearInterval(interval);
+  });
+</script>
+
 <!--
 // v0 by Vercel.
 // https://v0.dev/t/3HzOeXWeHOf
@@ -45,7 +70,9 @@
     <div
       class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-black text-yellow-400 text-4xl font-bold px-4 py-2 rounded-lg"
     >
-      5:00
+      {minutes.toString().padStart(2, "0")}:{seconds
+        .toString()
+        .padStart(2, "0")}
     </div>
     <div
       class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-500 w-12 h-12 rounded-full border-4 border-black"
