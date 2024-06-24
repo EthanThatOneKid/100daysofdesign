@@ -34,19 +34,3 @@
     {/each}
   </div>
 </section>
-
-<footer class="container mx-auto px-4 py-8 text-center">
-  <p>
-    Designed with <a href="https://acmcsuf.com/teams#design"
-      ><img
-        alt="Design Love"
-        src="https://cdn.discordapp.com/emojis/1202363342845640744.webp?size=24&quality=lossless"
-        class="inline"
-      /></a
-    >
-    by
-    <a href="https://etok.codes/" class="underline font-bold"
-      >@EthanThatOneKid</a
-    >
-  </p>
-</footer>

@@ -3,14 +3,6 @@
   import lavaLampAppIconSVG from "./lava_lamp_app_icon.svg";
 </script>
 
-<svelte:head>
-  <title>#005 — 100 Days of Design Challenge 🖋️</title>
-  <meta
-    name="description"
-    content="Design an app icon. What best represents the brand or product? Or is it incredibly unique? Does it look great at a distance and does it stand out when put on your home screen alongside other apps? Have fun and put your own spin into things!"
-  />
-</svelte:head>
-
 <!--
 // v0 by Vercel.
 // https://v0.dev/t/kFlcAUCh3BC

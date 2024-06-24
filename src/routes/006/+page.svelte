@@ -3,14 +3,6 @@
   import referencePNG from "./reference.png";
 </script>
 
-<svelte:head>
-  <title>#006 — 100 Days of Design Challenge 🖋️</title>
-  <meta
-    name="description"
-    content="Design a user profile and be mindful of the most important data, names, imagery, placement, etc. Is it for a serious profile? A social profile? (It's up to you!)"
-  />
-</svelte:head>
-
 <Screen />
 
 <div class="flex items-center justify-center h-screen">
