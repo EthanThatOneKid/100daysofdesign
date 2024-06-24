@@ -28,9 +28,12 @@
 // https://v0.dev/t/3HzOeXWeHOf
 -->
 
-<div class="flex flex-col items-center justify-center min-h-screen bg-blue-500">
+<div
+  id="container"
+  class="flex flex-col items-center justify-center min-h-screen"
+>
   <div
-    class="relative w-full max-w-4xl p-4 bg-blue-700 border-4 border-black rounded-lg"
+    class="relative w-full max-w-4xl p-4 border-4 border-black rounded-lg bg-blue-700 bg-opacity-50"
   >
     <div
       class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-yellow-400 w-12 h-6 rounded-full"
@@ -79,3 +82,10 @@
     ></div>
   </div>
 </div>
+
+<style lang="postcss">
+  #container {
+    background: url(https://archives.bulbagarden.net/media/upload/1/14/Aqua_Ribbon.png)
+      center center / cover;
+  }
+</style>
