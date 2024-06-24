@@ -14,10 +14,6 @@
   }
 </script>
 
-<!-- TODO: Add small header with link to home page, link to previous challenge, and
-link to next challenge, the title of the current challenge, and a description of
-the current challenge. -->
-
 <svelte:head>
   {#if challenge !== undefined}
     <title>#{challenge.id} — {titleSuffix}</title>
@@ -34,8 +30,21 @@ the current challenge. -->
 {#if challenge !== undefined}
   <header class="bg-gray-100 py-4">
     <p class="text-left container mx-auto px-4 py-8">
-      {challenge.id.toString().padStart(3, "0")} —
-      <strong>{challenge.title}</strong>
+      {#if $page.url.pathname !== "/"}
+        <a href="/" class="underline">Home</a>
+      {/if}
+
+      {#if previous !== undefined}
+        <a href={makeURL(previous.id)} class="underline">Previous</a>
+      {/if}
+
+      {#if next !== undefined}
+        <a href={makeURL(next.id)} class="underline">Next</a>
+      {/if}
+
+      <br />
+
+      #{challenge.id} — <strong>{challenge.title}</strong>
       <br />
       {challenge.description}
     </p>
@@ -46,22 +55,6 @@ the current challenge. -->
 
 <footer class="bg-gray-200 py-4">
   <div class="container mx-auto px-4 py-8 text-center">
-    <p class="mb-4 text-left"></p>
-
-    <p>
-      {#if previous !== undefined}
-        <a href={makeURL(previous.id)} class="mx-2">Previous</a>
-      {/if}
-
-      {#if $page.url.pathname !== "/"}
-        <a href="/" class="mx-2">Home</a>
-      {/if}
-
-      {#if next !== undefined}
-        <a href={makeURL(next.id)} class="mx-2">Next</a>
-      {/if}
-    </p>
-
     <p>
       Designed with
       <a href="https://acmcsuf.com/teams#design"
