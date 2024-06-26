@@ -37,6 +37,18 @@ export const challenges = [
     description:
       "Design a user profile and be mindful of the most important data, names, imagery, placement, etc. Is it for a serious profile? A social profile? (It's up to you!)",
   },
+  {
+    id: 7,
+    title: "Settings",
+    description:
+      "Design settings for something. Is it for security or privacy settings? Game settings? Light mode vs. dark mode? System settings (sound, notifications, screen time, Wi-Fi, etc.?",
+  },
+  {
+    id: 8,
+    title: "Beach Flyer",
+    description:
+      "Design a flyer for a beach of your choice, whether it's in California or anywhere in the world 🌠🪼. Include information you think could attract the attention of viewers. Your main goal is to create a design that draws people in! Also, there’s a catch ~ you have to include Capy, our mascot, into your design.",
+  },
 ] satisfies DayOfDesign[];
 
 export interface DayOfDesign {
