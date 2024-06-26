@@ -8,7 +8,7 @@
   <title>100 Days of Design Challenge 🖋️</title>
   <meta
     name="description"
-    content="Showcase of Ethan's #100daysofdesign challenge. Each day, he designs a new user interface, component, or layout for the ACM at CSUF Design Team's 100 Days of Design Challenge 2024!"
+    content="Showcase of Ethan's #100daysofdesign challenge. Each day, Ethan designs a new user interface, component, or layout for the ACM at CSUF Design Team's 100 Days of Design Challenge 2024!"
   />
 </svelte:head>
 
