@@ -11,7 +11,8 @@
       audioCtx = new AudioContext();
     }
 
-    const percentage = event.clientX / event.target?.clientWidth;
+    const percentage =
+      event.clientX / (event.target as HTMLDivElement).clientWidth;
     playNote(percentage);
   }
 
@@ -75,8 +76,8 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
   class="__className_aaf875"
-  on:mousemove={handleMouseEvent}
   style:background-image="url({circuitSVG})"
+  on:mousemove={handleMouseEvent}
 >
   <div class="bmo_screen__jgxgK">
     <div class="bmo_face__I_Ksk">
@@ -135,50 +136,9 @@
       margin-top: -50vh;
     }
   }
+
   .bmo_face__I_Ksk svg {
     width: 100%;
     height: 100%;
-  }
-  .bmo_message__N3J_2 {
-    margin: 1rem;
-  }
-  .bmo_message__N3J_2 pre,
-  .bmo_systemPrompt__rg3sB {
-    white-space: pre-wrap;
-  }
-  .bmo_sidebar__wdjTK {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.25);
-    overflow: auto;
-    border-radius: 1rem;
-    padding: 1.25rem;
-    margin: 0.25rem;
-    @media (max-width: 600px) {
-      top: 50%;
-      margin-left: 0;
-      margin-bottom: 0;
-      margin-right: 0;
-      margin-top: 0;
-      width: 100%;
-    }
-  }
-  .bmo_sidebar__wdjTK hr {
-    margin: 0.5rem 0;
-  }
-  .bmo_sidebar__wdjTK ul {
-    margin-left: -1rem;
-  }
-  .bmo_chatInput__MbJx2 {
-    width: 100%;
-  }
-  .bmo_github__eP9Az {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 0.5rem;
   }
 </style>
