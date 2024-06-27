@@ -5,6 +5,18 @@
 
 <Music />
 
+<p class="text-center text-lg">
+  (Headphone warning!)
+  <br />
+  How to play instrument: Move your mouse over the motherboard!
+  <br />
+  This is a reference to the episode
+  <a
+    href="https://adventuretime.fandom.com/wiki/What_Was_Missing"
+    class="underline">What Was Missing</a
+  > from Adventure Time.
+</p>
+
 <div class="flex items-center justify-center h-screen">
   <div
     class="relative w-[800px] h-[600px] bg-background border border-input rounded-lg shadow-lg"
