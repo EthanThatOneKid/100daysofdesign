@@ -7,6 +7,11 @@
   let recentNote: string | null = null;
 
   function handleMouseEvent(event: MouseEvent) {
+    // Proceed if the user is clicking on the screen.
+    if (event.buttons !== 1) {
+      return;
+    }
+
     if (!audioCtx) {
       audioCtx = new AudioContext();
     }
@@ -121,6 +126,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    user-select: none;
   }
 
   .bmo_screen__jgxgK {

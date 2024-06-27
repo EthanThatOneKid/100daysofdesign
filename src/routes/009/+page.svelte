@@ -8,7 +8,7 @@
 <p class="text-center text-lg">
   (Headphone warning!)
   <br />
-  How to play instrument: Move your mouse over the motherboard!
+  How to play instrument: Drag your mouse over the motherboard!
   <br />
   This is a reference to the episode
   <a
