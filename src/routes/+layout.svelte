@@ -16,7 +16,7 @@
 
 <svelte:head>
   {#if challenge !== undefined}
-    <title>#{challenge.id} — {titleSuffix}</title>
+    <title>{challenge.id}/100 — {titleSuffix}</title>
     <meta name="description" content={challenge.description} />
   {:else}
     <title>{titleSuffix}</title>
@@ -44,7 +44,7 @@
 
       <br />
 
-      #{challenge.id} — <strong>{challenge.title}</strong>
+      {challenge.id}/100 — <strong>{challenge.title}</strong>
       <br />
       {challenge.description}
     </p>
