@@ -49,6 +49,12 @@ export const challenges = [
     description:
       "Design a flyer for a beach of your choice, whether it's in California or anywhere in the world 🌠🪼. Include information you think could attract the attention of viewers. Your main goal is to create a design that draws people in! Also, there’s a catch ~ you have to include Capy, our mascot, into your design.",
   },
+  {
+    id: 9,
+    title: "Music Player",
+    description:
+      "Design a music player. It could be browser based or an app (i.e. Pandora, Spotify, SoundCloud, etc.) or in a standalone product like in a car dashboard, jukebox, etc. Consider the controls, placements, imagery such as the artist or album cover, etc. Also, consider the device type that's playing the music. A dashboard in a tour bus, a smartwatch, or via a web browser. Each device type will have different requirements, features, and restrictions to consider.",
+  },
 ] satisfies DayOfDesign[];
 
 export interface DayOfDesign {
