@@ -9,3 +9,12 @@
     >
   </div>
 </div>
+
+<p class="text-lg mt-4">
+  Shout out to
+  <a
+    href="https://github.com/ArthurBeaulieu/ORlyGenerator"
+    class="text-blue-500 underline"
+    >https://github.com/ArthurBeaulieu/ORlyGenerator</a
+  > for the online ORly book cover generator.
+</p>
