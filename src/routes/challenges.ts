@@ -61,6 +61,30 @@ export const challenges = [
     description:
       "Design a book cover. It can be a horror, romance, comedy, or any genre you can think of. Consider things like colors, illustration, book title, and more that makes the audience want to grab your book and read what it's about.",
   },
+  {
+    id: 11,
+    title: "Flash Message",
+    description:
+      "Design a Flash Message with both the error message and success message. Is it for a sign up form? A download/upload message? Is it to promote a membership plan?",
+  },
+  {
+    id: 12,
+    title: "Poster",
+    description:
+      "The poster can be for anything. Is this poster for a movie? clothes? shoes? a videogame? Food??? Anything can be on the poster as long as you effectively advertise your product.",
+  },
+  {
+    id: 13,
+    title: "Festival Poster",
+    description:
+      "Do you have a dream music festival lineup? Complete with artists that you like & listen to! Or, are you interested in a fun-filled festival day that includes your favorite interests & hobbies? Now is your chance to design your dream Festival Poster 🎠🎟️",
+  },
+  {
+    id: 14,
+    title: "Countdown Timer",
+    description:
+      "Is it for an app? An interface for an oven or cooking device? A sport related countdown, such as on a scoreboard? Or is it a launch countdown for NASA, race cars, or something else?",
+  },
 ] satisfies DayOfDesign[];
 
 export interface DayOfDesign {
