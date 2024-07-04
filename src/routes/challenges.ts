@@ -59,7 +59,7 @@ export const challenges = [
     id: 10,
     title: "Book Cover",
     description:
-      "Design a book cover. It can be a horror, romance, comedy, or any genre you can think of. Consider things like colors, illustration, book title, and more that makes the audience want to grab your book and read what it’s about.",
+      "Design a book cover. It can be a horror, romance, comedy, or any genre you can think of. Consider things like colors, illustration, book title, and more that makes the audience want to grab your book and read what it's about.",
   },
 ] satisfies DayOfDesign[];
 
