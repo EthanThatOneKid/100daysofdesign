@@ -85,6 +85,12 @@ export const challenges = [
     description:
       "Is it for an app? An interface for an oven or cooking device? A sport related countdown, such as on a scoreboard? Or is it a launch countdown for NASA, race cars, or something else?",
   },
+  {
+    id: 15,
+    title: "On/Off Switch",
+    description:
+      "Today's prompt is On/Off Switch! 💡 Consider what's being turned on/off and how it should be done. Is it a push-to-start electric vehicle? A control panel for a smart refrigerator or some other touch panel display!",
+  },
 ] satisfies DayOfDesign[];
 
 export interface DayOfDesign {
