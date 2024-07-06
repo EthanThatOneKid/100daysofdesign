@@ -1,6 +1,6 @@
 export async function getFollowRatio(username: string): Promise<FollowRatio> {
   return await fetch(
-    `https://follow-ratio.deno.dev/?username=${username}`
+    `https://follow-ratio.deno.dev/?username=${username}`,
   ).then((response) => response.json());
 }
 
