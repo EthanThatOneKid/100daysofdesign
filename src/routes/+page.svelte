@@ -8,7 +8,7 @@
   <title>100 Days of Design Challenge 🖋️</title>
   <meta
     name="description"
-    content="Showcase of Ethan's #100daysofdesign challenge. Each day, Ethan designs a new user interface, component, or layout for the ACM at CSUF Design Team's 100 Days of Design Challenge 2024!"
+    content="Showcase of Ethan's #100daysofdesign challenge (completion={daysOfDesign.length}%). Each day, Ethan designs a new user interface, component, or layout for the ACM at CSUF Design Team's 100 Days of Design Challenge 2024!"
   />
 </svelte:head>
 
@@ -23,6 +23,11 @@
     > to read the source code for each design challenge.
   </p>
 
+  <p class="mt-4">
+    Each day, I design a new user interface, component, or layout for the ACM at
+    CSUF Design Team's 100 Days of Design Challenge 2024. Click on a day to view
+    the design! So far, I've completed {daysOfDesign.length}% of the challenge!
+  </p>
   <div class="grid grid-cols-1 gap-4 mt-8">
     {#each daysOfDesign as day}
       <a
