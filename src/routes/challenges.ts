@@ -1,5 +1,3 @@
-// TODO: Read challenge data from individual files in respective folders.
-
 export const challenges = [
   {
     id: 1,
@@ -101,10 +99,38 @@ export const challenges = [
   },
   {
     id: 15,
-    date: "2024-06-05",
+    date: "2024-07-05",
     title: "On/Off Switch",
     description:
       "Today's prompt is On/Off Switch! 💡 Consider what's being turned on/off and how it should be done. Is it a push-to-start electric vehicle? A control panel for a smart refrigerator or some other touch panel display!",
+  },
+  {
+    id: 16,
+    date: "2024-07-08",
+    title: "Newsletter",
+    description:
+      "Is it for a company, a clothing store, a music band? Focus on what will catch the audience's eyes like colors, headers, pictures, and font.",
+  },
+  {
+    id: 17,
+    date: "2024-07-09",
+    title: "Purchase Receipt",
+    description:
+      "What was purchased? On what date? How much was the item? And from what source and vendor?",
+  },
+  {
+    id: 18,
+    date: "2024-07-10",
+    title: "Navbar",
+    description:
+      "Aim for functionality, or make something visually appealing. Maybe aim for a little bit of both? Either way I hope you enjoy today's prompt.",
+  },
+  {
+    id: 19,
+    date: "2024-07-11",
+    title: "Greeting Card",
+    description:
+      "Design a greeting card that's not just a piece of paper but a tiny work of art! 💌 Whether it's for a birthday bash, a heartwarming thank you, a festive holiday, or any special occasion, your design should make the recipient feel truly special.",
   },
 ] satisfies DayOfDesign[];
 
