@@ -132,6 +132,13 @@ export const challenges = [
     description:
       "Design a greeting card that's not just a piece of paper but a tiny work of art! 💌 Whether it's for a birthday bash, a heartwarming thank you, a festive holiday, or any special occasion, your design should make the recipient feel truly special.",
   },
+  {
+    id: 20,
+    date: "2024-07-12",
+    title: "Recipe App",
+    description:
+      "Let's design a recipe app interface that makes cooking easy and enjoyable! Focus on clean visuals, intuitive navigation, and a seamless user experience.",
+  },
 ] satisfies DayOfDesign[];
 
 export interface DayOfDesign {
