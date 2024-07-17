@@ -139,6 +139,20 @@ export const challenges = [
     description:
       "Let's design a recipe app interface that makes cooking easy and enjoyable! Focus on clean visuals, intuitive navigation, and a seamless user experience.",
   },
+  {
+    id: 21,
+    date: "2024-07-15",
+    title: "Mock Company",
+    description:
+      "Design for a mock company of your choice! An app for a Rent-A-Rizzler foundation, a meatball bread catering page, or a website to buy capybaras by the dozen, it's all up to your creativity! Pro tip! Consider branding, information hierarchy, imagery, etc!",
+  },
+  {
+    id: 22,
+    date: "2024-07-16",
+    title: "Change Discord's UI",
+    description:
+      "If you had a choice to change something about Discord's UI, what would you change? Is it just a small feature or everything? Think of how to make it more accessible whether it's on desktop or mobile. Do you want to add a new feature so it's more fun? Is there a feature that's annoying that you want to remove asap?",
+  },
 ] satisfies DayOfDesign[];
 
 export interface DayOfDesign {
