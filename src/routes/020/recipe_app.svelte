@@ -7,7 +7,10 @@
   <header
     class="sticky top-0 z-30 flex items-center justify-between px-4 py-3 bg-background border-b md:px-6"
   >
-    <a class="flex items-center gap-2 font-bold text-lg" href="#">
+    <a
+      class="flex items-center gap-2 font-bold text-lg"
+      href="https://go.fart.tools/rr"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -50,7 +53,7 @@
     <div class="hidden md:flex items-center gap-4">
       <a
         class="flex items-center gap-2 text-muted-foreground hover:text-foreground"
-        href="#"
+        href="https://go.fart.tools/rr"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +75,7 @@
       </a>
       <a
         class="flex items-center gap-2 text-muted-foreground hover:text-foreground"
-        href="#"
+        href="https://go.fart.tools/rr"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +105,12 @@
       <div class="container px-4 md:px-6">
         <div class="flex items-center justify-between mb-6">
           <h2 class="text-2xl font-bold">Featured Recipes</h2>
-          <a class="text-primary hover:underline" href="#"> View All </a>
+          <a
+            class="text-primary hover:underline"
+            href="https://go.fart.tools/rr"
+          >
+            View All
+          </a>
         </div>
         <div
           class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
@@ -111,7 +119,7 @@
             class="rounded-lg border bg-card text-card-foreground shadow-sm group"
             data-v0-t="card"
           >
-            <a class="block" href="#">
+            <a class="block" href="https://go.fart.tools/rr">
               <img
                 src="/placeholder.svg"
                 alt="Recipe Image"
@@ -157,7 +165,7 @@
             class="rounded-lg border bg-card text-card-foreground shadow-sm group"
             data-v0-t="card"
           >
-            <a class="block" href="#">
+            <a class="block" href="https://go.fart.tools/rr">
               <img
                 src="/placeholder.svg"
                 alt="Recipe Image"
@@ -203,7 +211,7 @@
             class="rounded-lg border bg-card text-card-foreground shadow-sm group"
             data-v0-t="card"
           >
-            <a class="block" href="#">
+            <a class="block" href="https://go.fart.tools/rr">
               <img
                 src="/placeholder.svg"
                 alt="Recipe Image"
@@ -251,7 +259,7 @@
             class="rounded-lg border bg-card text-card-foreground shadow-sm group"
             data-v0-t="card"
           >
-            <a class="block" href="#">
+            <a class="block" href="https://go.fart.tools/rr">
               <img
                 src="/placeholder.svg"
                 alt="Recipe Image"
@@ -306,7 +314,7 @@
         >
           <a
             class="flex flex-col items-center gap-2 p-4 rounded-md bg-background hover:bg-accent hover:text-accent-foreground transition-colors"
-            href="#"
+            href="https://go.fart.tools/rr"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -331,7 +339,7 @@
           </a>
           <a
             class="flex flex-col items-center gap-2 p-4 rounded-md bg-background hover:bg-accent hover:text-accent-foreground transition-colors"
-            href="#"
+            href="https://go.fart.tools/rr"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -357,7 +365,7 @@
           </a>
           <a
             class="flex flex-col items-center gap-2 p-4 rounded-md bg-background hover:bg-accent hover:text-accent-foreground transition-colors"
-            href="#"
+            href="https://go.fart.tools/rr"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -379,7 +387,7 @@
           </a>
           <a
             class="flex flex-col items-center gap-2 p-4 rounded-md bg-background hover:bg-accent hover:text-accent-foreground transition-colors"
-            href="#"
+            href="https://go.fart.tools/rr"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -403,7 +411,7 @@
           </a>
           <a
             class="flex flex-col items-center gap-2 p-4 rounded-md bg-background hover:bg-accent hover:text-accent-foreground transition-colors"
-            href="#"
+            href="https://go.fart.tools/rr"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -425,7 +433,7 @@
           </a>
           <a
             class="flex flex-col items-center gap-2 p-4 rounded-md bg-background hover:bg-accent hover:text-accent-foreground transition-colors"
-            href="#"
+            href="https://go.fart.tools/rr"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -462,13 +470,22 @@
         © 2024 Delicious Recipes. All rights reserved.
       </p>
       <div class="flex items-center gap-4 mt-4 md:mt-0">
-        <a class="text-muted-foreground hover:text-foreground" href="#">
+        <a
+          class="text-muted-foreground hover:text-foreground"
+          href="https://go.fart.tools/rr"
+        >
           About
         </a>
-        <a class="text-muted-foreground hover:text-foreground" href="#">
+        <a
+          class="text-muted-foreground hover:text-foreground"
+          href="https://go.fart.tools/rr"
+        >
           Contact
         </a>
-        <a class="text-muted-foreground hover:text-foreground" href="#">
+        <a
+          class="text-muted-foreground hover:text-foreground"
+          href="https://go.fart.tools/rr"
+        >
           Privacy
         </a>
       </div>
