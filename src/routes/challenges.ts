@@ -153,6 +153,34 @@ export const challenges = [
     description:
       "If you had a choice to change something about Discord's UI, what would you change? Is it just a small feature or everything? Think of how to make it more accessible whether it's on desktop or mobile. Do you want to add a new feature so it's more fun? Is there a feature that's annoying that you want to remove asap?",
   },
+  {
+    id: 23,
+    date: "2024-07-18",
+    title: "Widget",
+    description:
+      "Come up with a widget for an existing app or your own. For instance, Spotify showing you previews to your albums? How about statistics for a game? Maybe simply a cute animation or pet?",
+  },
+  {
+    id: 24,
+    date: "2024-07-19",
+    title: "CSUF Student Homepage",
+    description:
+      "Redesign the CSUF Homepage something more to your liking. Is it too cluttered for your liking? Is it a bland homepage? Maybe you do like it and just have one thing you wish to add? Whatever it is flex your design skills with this new challenge! 💪",
+  },
+  {
+    id: 25,
+    date: "2024-07-22",
+    title: "Capy Week Day One! — Design Team",
+    description:
+      "Create a Capy Discord Banner that fits the ACM Design Team Color Palette and showcases a special Capy! 🫡  Everyday in this week, we will be designing one Capy Discord Banner for every ACM Team! Feel free to create your own Capy, icons, assets, etc. !!",
+  },
+  {
+    id: 26,
+    date: "2024-07-23",
+    title: "Capy Week Day Two - Open Source Software (OSS)",
+    description:
+      "Create a Capy Discord Banner that fits the ACM OSS Team Color Palette and showcases a special Capy.",
+  },
 ] satisfies DayOfDesign[];
 
 export interface DayOfDesign {
